@@ -11,3 +11,4 @@ def test_sadness():
     assert emotion_detector("I am so sad about this")["dominant_emotion"] == "sadness"
 def test_fear():
     assert emotion_detector("I am really afraid that this will happen")["dominant_emotion"] == "fear"
+
